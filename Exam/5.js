@@ -4,6 +4,7 @@ function getBudgets(arrobj) {
         sum += arrobj[i].budget;
     }
     return sum;
+    console.log(arguments);
 }
 
 console.log(
