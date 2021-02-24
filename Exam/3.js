@@ -3,7 +3,6 @@ function capToFront(str){
     let up = "";
     let low = "";
 
-    //normal case
     for (let i = 0 ;i < arr.length; i++) {
         if(arr[i] == arr[i].toUpperCase()){
             up += arr[i];
@@ -12,21 +11,7 @@ function capToFront(str){
             low += arr[i];
         }
     }
-    return up+low;
-    
-
-    /*
-    for (let i of arr){
-        if(i == i.toUpperCase()){ //เก็บตัวอักษรพิมพ์ใหญ่
-            up += i;
-        }
-        else{ //เก็บตัวอักษรพิมพ์เล็ก
-            low += i;
-        }
-    }
-    return up+low;
-    */
-    
+    return up+low; 
 }
 
 console.log (capToFront("hApPy"));

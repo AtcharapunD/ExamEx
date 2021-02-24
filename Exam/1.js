@@ -1,5 +1,4 @@
 function numberSplit (num) {
-    //return [(num/2)-0.5,(num/2)+0.5];
     return [Math.floor(num/2),Math.ceil(num/2)];
 }
 
